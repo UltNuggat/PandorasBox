@@ -1,0 +1,128 @@
+html {
+  background-image: url('images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  text-align: center;
+  text-shadow: burlywood;
+  height: 100%;
+  width: 100%;
+  @font-face {
+    font-family:Caesar Dressing ;
+    src: url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  div {
+    font-family: Caesar Dressing;
+  }
+  body{
+    margin-top: 10rem;
+    margin-right: 20rem;
+    margin-left: 20rem;;
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+  }
+  
+  h3 {
+    font-size: 2.25rem;
+    font-weight: 400;
+  }
+  
+  p {
+    font-size: 1.75rem;
+    font-weight: 400;
+  }
+  button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: palegreen;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[id=eraseButton] {
+  background-color: indianred;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+}

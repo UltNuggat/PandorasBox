@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PANDORA</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+   <div class="container">
+    <form id="formID" >
+      <div class="row">
+        <div class="col-25">
+          <label for="Bname">Nombre de chico</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Bnombre" name="nombre" placeholder="Fulanito...">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Gname">Nombre de chica</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Gnombre" name="nombre" placeholder="Fulanita...">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="verbo">Infinitivo</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="verbo" name="verbo" placeholder="comer">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="adjetivo">Adjetivo</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="adjetivo" name="adjetivo" placeholder="azul">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lugar">Locación</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lugar" name="locacion" placeholder="Olympo...">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="personaje">Personaje</label>
+        </div>
+        <div class="col-75">
+          <select id="personaje" name="personaje">
+            <option value="placeholder">Selecciona un personaje</option>"
+            <option value="Pandora">Pandora</option>
+            <option value="Zeus">Zeus</option>
+            <option value="Hefesto">Hefesto</option>
+            <option value="Prometeo">Prometeo</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="pregunta">Pregunta</label>
+        </div>
+        <div class="col-75">
+          <select id="pregunta" name="pregunta">
+             <option value="placeholder">Selecciona una pregunta</option>"
+            <option value="Cúal es tú color favorito">
+              Cúal es tú color favorito?
+            </option>
+            <option value="Cual es el motivo por vivir">
+              Cual es el motivo por vivir?
+            </option>
+            <option value="Cuál es la capital de Bangladesh">
+              Cuál es la capital de Bangladesh?
+            </option>
+            <option value="Cuándo calló el Imperio Otomano">
+              Cuándo calló el Imperio Otomano?
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for = "txtImagen">Imagen</label>
+        </div>
+        <div class="col-75">
+          <select id="txtImagen" name="elige">
+              <option value="quimea">Quimea</option>
+              <option value="medusa">Medusa</option>
+              <option value="cancer">Cancerbero</option>
+              <option value="hidra">Hidra</option>
+            </select>
+        </div>
+      </div>
+      
+      <div class="row">
+        <input type="submit" value="ENVIAR">
+        <input type="button" id="eraseButton" value="BORRAR">
+      </div>
+      
+    </form>
+  </div> 
+   <script src="script.js"></script>
+</body>
+
+</html>
